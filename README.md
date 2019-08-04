@@ -1,21 +1,20 @@
-# sonic-player-ia
 Trabalho de Computação Bioinspirada - Inteligencia Artificial que joga Sonic The Hedgehog, treinada com rede neuroevolutiva.
 
-# ...
+# Resultados da IA em Sonic The Hedgehog
+...
 
-## Funcionamento
+# NEAT
 ### O que é NEAT?
 O algoritmo NEAT (Neuroevolution of Augmenting Topologies) une redes neurais com algoritmos genéticos.
 
 ### Diferença entre Fixed Topology e Augmenting Topology
 
-Topologia fixa:
-
+Fixed Topology:
 - Aprende o peso das conexões
 - Estrutura (quantidade de neurônios e camadas) deve ser pré-definida por um humano 
 - Isso faz com que uma estrutura boa precise ser encontrada por tentativa e erro
 
-Topologia augmentada:
+Augmented Topology:
 - Além de aprender o peso das conexões, também aprende qual é a quantidade de neurônios e camadas ideal
 
 
@@ -74,7 +73,7 @@ Se não estiver, ele fará parte de uma nova espécie.
 
 
 ### Referencias
-NEAT FlapPyBio: https://github.com/michael-iuzzolino/FlapPyBio
-Hannah Le, NeuroEvolution, NEAT Algorithm and My NEAT: https://medium.com/datadriveninvestor/neuroevolution-neat-algorithm-and-my-neat-b83c5174d8b0
+- [NEAT FlapPyBio](https://github.com/michael-iuzzolino/FlapPyBio)
+- [Hannah Le, NeuroEvolution, NEAT Algorithm and My NEAT](https://medium.com/datadriveninvestor/neuroevolution-neat-algorithm-and-my-neat-b83c5174d8b0)
 
 
