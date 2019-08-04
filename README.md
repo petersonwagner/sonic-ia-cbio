@@ -1,11 +1,16 @@
-Trabalho de Computação Bioinspirada - Inteligencia Artificial que joga Sonic The Hedgehog, treinada com rede neuroevolutiva.
+Trabalho de Computação Bioinspirada - Inteligencia Artificial que joga Sonic The Hedgehog (usando Gym Retro do OpenAI), treinada com rede neuroevolutiva.
 
 # Resultados da IA em Sonic The Hedgehog
-...
+![](sonic1.gif)
+
+### O que a rede enxerga (inputs da rede neural)
+![](inputs.gif)
 
 # NEAT
 ### O que é NEAT?
 O algoritmo NEAT (Neuroevolution of Augmenting Topologies) une redes neurais com algoritmos genéticos.
+
+![](nn-ga.jpeg)
 
 ### Diferença entre Fixed Topology e Augmenting Topology
 
@@ -36,12 +41,14 @@ Augmented Topology:
 
 ### Crossover
 - Resole o problema de combinações destrutivas
-![]()
-![]()
+
+![](crossover1.png)
+
+![](crossover2.png)
 
 - Crossover resolve o problema com a representação da rede neural com Innovation Number e ligação entre entrada e saída
-![]()
-![]()
+
+![](crossover4.jpg)
 
 ### Mutação
 - Pode ser aplicado em todos os genomas.
@@ -58,6 +65,8 @@ Augmented Topology:
 ### Mutação estrutural
 - Adiciona novo genoma (5%)
 - Adiciona novo nodo (3%)
+
+![](mutation-structural.png)
 
 ### Especiação
 
